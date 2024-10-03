@@ -1,0 +1,63 @@
+/* ปรับพื้นหลังของหน้าเว็บ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5; /* ม่วงพาสเทลอ่อน */
+    margin: 0;
+    padding: 0;
+}
+
+/* ปรับกล่องข้อความ */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* ปรับสีหัวข้อ */
+h1 {
+    color: #ba68c8; /* ม่วงพาสเทลเข้ม */
+}
+
+/* ปรับสีของฟอร์มและข้อความ */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #ab47bc; /* ม่วงพาสเทลสดใส */
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 2px solid #ab47bc; /* ขอบสีม่วงพาสเทล */
+    border-radius: 5px;
+}
+
+/* ปรับสีปุ่ม */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f48fb1; /* ชมพูพาสเทล */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f06292; /* ชมพูพาสเทลเข้ม */
+}
+
+/* ปรับสีของผลลัพธ์ */
+.result {
+    font-size: 20px;
+    color: #8e44ad; /* ม่วงเข้ม */
+}
